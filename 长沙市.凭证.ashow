@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+  <Setting>
+    <输出条件/>
+    <是否无纸化/>
+    <凭证类型>A5(148*210)</凭证类型>
+    <背景图片/>
+    <是否强制打印纸质/>
+    <是否推送柜外清/>
+    <是否需客户签名/>
+    <印章类型/>
+    <印章种类/>
+    <打印提示/>
+    <备注/>
+  </Setting>
+  <Content>
+    <LabelInput id="LabelInput3" name="经办柜员" TextAlign="Align_Left" rule="" dataSource="" printType="打印字样且内容" Width="49" Height="5" Left="8" Top="19"/>
+    <LabelInput id="LabelInput4" name="复核柜员" TextAlign="Align_Left" rule="" dataSource="" printType="打印字样且内容" Width="49" Height="5" Left="63" Top="27"/>
+    <LabelInput id="LabelInput5" name="授权柜员" TextAlign="Align_Left" rule="" dataSource="" printType="打印字样且内容" Width="49" Height="5" Left="121" Top="27"/>
+    <Label id="Label1" name="银行签章" Bold="false" Fontsize="14" TextAlign="Align_Left" rule="" dataSource="" printType="打印字样且内容" Width="30" Height="5" Left="33" Top="46"/>
+    <Label id="Label2" name="客户签名" Bold="false" Fontsize="14" TextAlign="Align_Left" rule="" dataSource="" printType="打印字样且内容" Width="30" Height="5" Left="89" Top="46"/>
+  </Content>
+</Root>

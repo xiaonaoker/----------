@@ -1,0 +1,371 @@
+{
+  "children": [
+    {
+      "id": "1711588306060_1",
+      "type": "widget",
+      "component": "lane",
+      "data": {
+        "label": "泳道",
+        "width": "100%",
+        "accompany": "",
+        "custom": "",
+        "height": 60
+      },
+      "rules": {}
+    },
+    {
+      "id": "1692168226037_1",
+      "type": "container",
+      "component": "group",
+      "data": {
+        "label": "客/账户信息",
+        "accompany": "",
+        "custom": "",
+        "level": "medium",
+        "padding": 0,
+        "margin": 0,
+        "width": "100%",
+        "align": "left",
+        "modelData": ""
+      },
+      "children": [
+        {
+          "id": "1692168320452_1",
+          "type": "widget",
+          "component": "select",
+          "data": {
+            "label": "维护类型",
+            "modelData": "",
+            "inputLimit": "required",
+            "selectMode": "single",
+            "showLabel": true,
+            "labelAlign": "right",
+            "placeholder": "",
+            "options": [
+              {
+                "label": "1-维护客户信息"
+              },
+              {
+                "label": "2-维护账户信息"
+              }
+            ],
+            "accompany": "",
+            "custom": "",
+            "padding": 0,
+            "margin": 0,
+            "width": "50%"
+          },
+          "formRules": {
+            "初始化": [
+              {
+                "conditions": [
+                  "默认情况"
+                ],
+                "execution": "<p>维护类型 选择 1-维护客户信息 账户名称置灰清空，客户名称必输\r\n维护类型 选择 2-维护账户信息 账户名称必输，客户名称置灰清空\r\n</p>"
+              }
+            ]
+          },
+          "rules": {}
+        },
+        {
+          "id": "1692168328404_1",
+          "type": "widget",
+          "component": "input",
+          "data": {
+            "label": "账号",
+            "modelData": "",
+            "inputLimit": "required",
+            "showLabel": true,
+            "labelAlign": "right",
+            "row": 1,
+            "placeholder": "",
+            "min": 0,
+            "max": 0,
+            "contentType": "text",
+            "accompany": "",
+            "custom": "",
+            "padding": 0,
+            "margin": 0,
+            "width": "50%",
+            "appendButton": false,
+            "appendButtonLabel": "",
+            "appendSelect": false,
+            "appendSelectOptions": []
+          },
+          "formRules": {
+            "初始化": [
+              {
+                "conditions": [
+                  "默认情况"
+                ],
+                "execution": "<p>通过账号查询客户号，再通过客户号查询客户信息</p>"
+              }
+            ]
+          },
+          "rules": {}
+        },
+        {
+          "id": "1692168330810_1",
+          "type": "widget",
+          "component": "input",
+          "data": {
+            "label": "账户名称",
+            "modelData": "",
+            "inputLimit": "required",
+            "showLabel": true,
+            "labelAlign": "right",
+            "row": 1,
+            "placeholder": "",
+            "min": 0,
+            "max": 0,
+            "contentType": "text",
+            "accompany": "",
+            "custom": "",
+            "padding": 0,
+            "margin": 0,
+            "width": "100%",
+            "appendButton": false,
+            "appendButtonLabel": "",
+            "appendSelect": false,
+            "appendSelectOptions": []
+          },
+          "formRules": {},
+          "rules": {}
+        },
+        {
+          "id": "1692168330642_1",
+          "type": "widget",
+          "component": "input",
+          "data": {
+            "label": "客户名称",
+            "modelData": "",
+            "inputLimit": "required",
+            "showLabel": true,
+            "labelAlign": "right",
+            "row": 1,
+            "placeholder": "",
+            "min": 0,
+            "max": 0,
+            "contentType": "text",
+            "accompany": "",
+            "custom": "",
+            "padding": 0,
+            "margin": 0,
+            "width": "100%",
+            "appendButton": false,
+            "appendButtonLabel": "",
+            "appendSelect": false,
+            "appendSelectOptions": []
+          },
+          "formRules": {},
+          "rules": {}
+        },
+        {
+          "id": "1692168330449_1",
+          "type": "widget",
+          "component": "input",
+          "data": {
+            "label": "统一社会信用代码",
+            "modelData": "",
+            "inputLimit": "required",
+            "showLabel": true,
+            "labelAlign": "right",
+            "row": 1,
+            "placeholder": "",
+            "min": 0,
+            "max": 0,
+            "contentType": "text",
+            "accompany": "",
+            "custom": "",
+            "padding": 0,
+            "margin": 0,
+            "width": "50%",
+            "appendButton": false,
+            "appendButtonLabel": "",
+            "appendSelect": false,
+            "appendSelectOptions": []
+          },
+          "formRules": {},
+          "rules": {}
+        },
+        {
+          "id": "1692168353793_1",
+          "type": "widget",
+          "component": "input",
+          "data": {
+            "label": "账号开户行机构号",
+            "modelData": "",
+            "inputLimit": "echo",
+            "showLabel": true,
+            "labelAlign": "right",
+            "row": 1,
+            "placeholder": "",
+            "min": 0,
+            "max": 0,
+            "contentType": "text",
+            "accompany": "",
+            "custom": "",
+            "padding": 0,
+            "margin": 0,
+            "width": "50%",
+            "appendButton": false,
+            "appendButtonLabel": "",
+            "appendSelect": false,
+            "appendSelectOptions": []
+          },
+          "formRules": {},
+          "rules": {}
+        },
+        {
+          "id": "1692168353573_1",
+          "type": "widget",
+          "component": "input",
+          "data": {
+            "label": "登记人名称",
+            "modelData": "",
+            "inputLimit": "",
+            "showLabel": true,
+            "labelAlign": "right",
+            "row": 1,
+            "placeholder": "",
+            "min": 0,
+            "max": 0,
+            "contentType": "text",
+            "accompany": "",
+            "custom": "",
+            "padding": 0,
+            "margin": 0,
+            "width": "100%",
+            "appendButton": false,
+            "appendButtonLabel": "",
+            "appendSelect": false,
+            "appendSelectOptions": []
+          },
+          "formRules": {},
+          "rules": {}
+        },
+        {
+          "id": "1692168353165_1",
+          "type": "widget",
+          "component": "input",
+          "data": {
+            "label": "登记机构号",
+            "modelData": "",
+            "inputLimit": "",
+            "showLabel": true,
+            "labelAlign": "right",
+            "row": 1,
+            "placeholder": "",
+            "min": 0,
+            "max": 0,
+            "contentType": "text",
+            "accompany": "",
+            "custom": "",
+            "padding": 0,
+            "margin": 0,
+            "width": "50%",
+            "appendButton": false,
+            "appendButtonLabel": "",
+            "appendSelect": false,
+            "appendSelectOptions": []
+          },
+          "formRules": {},
+          "rules": {}
+        }
+      ],
+      "formRules": {},
+      "rules": {}
+    },
+    {
+      "id": "1692458400249_1",
+      "type": "container",
+      "component": "button-group",
+      "data": {
+        "label": "组",
+        "width": "100%",
+        "align": "center",
+        "accompany": "",
+        "custom": "",
+        "modelData": ""
+      },
+      "children": [
+        {
+          "id": "1692458400249_2",
+          "type": "widget",
+          "component": "button",
+          "data": {
+            "label": "提交",
+            "type": "primary",
+            "accompany": "",
+            "custom": "",
+            "size": "normal",
+            "padding": 0,
+            "margin": 0,
+            "modelData": ""
+          },
+          "formRules": {
+            "点击后": [
+              {
+                "conditions": [
+                  "默认情况"
+                ],
+                "execution": "<p>调用接口 HOST_S172002412</p>"
+              }
+            ]
+          },
+          "rules": {
+            "初始化": [
+              {
+                "name": "<p>1111111</p>",
+                "id": "9200794",
+                "change": ""
+              },
+              {
+                "name": "<p>22222222</p>",
+                "id": "4475684",
+                "change": ""
+              }
+            ]
+          }
+        },
+        {
+          "id": "1692458400249_3",
+          "type": "widget",
+          "component": "button",
+          "data": {
+            "label": "取消",
+            "type": "text",
+            "accompany": "333333333",
+            "custom": "",
+            "size": "normal",
+            "padding": 0,
+            "margin": 0,
+            "modelData": ""
+          },
+          "formRules": {},
+          "rules": {
+            "初始化": [
+              {
+                "name": "<p>444444444</p><p>而荒废违法和</p>",
+                "id": "5526749",
+                "change": "<p>444444444</p><p>】4444444444</p><p><br></p>"
+              },
+              {
+                "name": "<p>333333333</p>",
+                "id": "0074164",
+                "change": ""
+              }
+            ]
+          }
+        }
+      ],
+      "formRules": {},
+      "rules": {}
+    }
+  ],
+  "name": "客户信息及账户信息维护",
+  "id": "1692167977144_1",
+  "description": "",
+  "formRules": {},
+  "rules": {}
+}
